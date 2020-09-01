@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProgramacionIII</string>
+    <string-array name="Operaciones">
+        <item >Seleccione un Elemento</item>
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multipliacacion</item>
+        <item>Dividir</item>
+    </string-array>
+
+</resources>
