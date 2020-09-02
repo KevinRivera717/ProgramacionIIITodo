@@ -9,6 +9,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -40,6 +42,25 @@ public class MainActivity extends AppCompatActivity {
             case R.id.OptDividir:
                 respuesta = num1 / num2;
                 break;
+            case R.id.OptPocentaje:
+                respuesta = num1 * num2 /100;
+                break;
+            case R.id.Optexponenciacion:
+                respuesta = Math.pow(num1,num2 );
+                break;
+            case R.id.OpsResiduo :
+                respuesta = num1 % num2;
+                break;
+            case R.id.optFactoreo:
+                double factor = 1;
+                while (num1!= 0){
+                    factor = factor * num1;
+                    num1--;
+                    System.out.println(factor);
+                    respuesta = num1;
+                    break;
+
+                }
 
         }
 
@@ -56,6 +77,17 @@ public class MainActivity extends AppCompatActivity {
             case  4://dividir
                 respuesta = num1 / num2;
                 break;
+            case  5://Porcentaje
+                respuesta = num1 * num2/100;
+                break;
+            case  6://Exponenciacion
+                respuesta = Math.pow(num1,num2 );
+                break;
+            case 7 :
+                respuesta = num1 % num2;
+                break;
+          
+
 
         }
 

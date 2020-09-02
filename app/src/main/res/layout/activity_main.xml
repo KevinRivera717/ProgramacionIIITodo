@@ -80,6 +80,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dividir" />
+
+        <RadioButton
+            android:id="@+id/OptPocentaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porcentaje" />
+
+        <RadioButton
+            android:id="@+id/Optexponenciacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="exponenciacion" />
+
+        <RadioButton
+            android:id="@+id/OpsResiduo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Residuo" />
+
+        <RadioButton
+            android:id="@+id/optFactoreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factoreo" />
     </RadioGroup>
 
     <Spinner
